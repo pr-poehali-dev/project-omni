@@ -28,10 +28,10 @@ export function FooterSection() {
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
             <a href="/" className="font-display text-xl font-semibold text-zinc-100">
-              🌿 ЗелёныйДом
+              🌿 Городские джунгли
             </a>
             <p className="mt-4 text-sm text-zinc-500 max-w-xs">
-              Живые растения с доставкой по всей России. Украшаем интерьеры с любовью к природе.
+              Urban Jungle.shop — живые растения с доставкой по всей России. Превратим ваш дом в тропики.
             </p>
           </div>
 
@@ -80,7 +80,7 @@ export function FooterSection() {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-zinc-900 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-zinc-600">© {new Date().getFullYear()} ЗелёныйДом. Все права защищены.</p>
+          <p className="text-sm text-zinc-600">© {new Date().getFullYear()} Городские джунгли / Urban Jungle.shop. Все права защищены.</p>
           <div className="flex items-center gap-4">
             <a href="#" className="text-zinc-500 hover:text-zinc-300 transition-colors" aria-label="GitHub">
               <Github className="w-5 h-5" />
