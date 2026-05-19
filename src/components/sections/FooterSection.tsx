@@ -2,21 +2,21 @@ import { Github, Twitter, Linkedin } from "lucide-react"
 
 const footerLinks = {
   product: [
-    { label: "Функции", href: "#features" },
-    { label: "Тарифы", href: "#pricing" },
-    { label: "Обновления", href: "#" },
-    { label: "Документация", href: "#" },
+    { label: "Каталог растений", href: "#features" },
+    { label: "Доставка", href: "#pricing" },
+    { label: "Уход за растениями", href: "#" },
+    { label: "Подарочные наборы", href: "#" },
   ],
   company: [
     { label: "О нас", href: "#" },
     { label: "Блог", href: "#" },
-    { label: "Вакансии", href: "#" },
+    { label: "Отзывы", href: "#testimonials" },
     { label: "Контакты", href: "#" },
   ],
   legal: [
-    { label: "Приватность", href: "#" },
-    { label: "Условия", href: "#" },
-    { label: "Безопасность", href: "#" },
+    { label: "Политика возврата", href: "#" },
+    { label: "Условия заказа", href: "#" },
+    { label: "Гарантия", href: "#" },
   ],
 }
 
@@ -28,16 +28,16 @@ export function FooterSection() {
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
             <a href="/" className="font-display text-xl font-semibold text-zinc-100">
-              Velocite
+              🌿 ЗелёныйДом
             </a>
             <p className="mt-4 text-sm text-zinc-500 max-w-xs">
-              Создавай быстрее, запускай умнее. Платформа для современных команд.
+              Живые растения с доставкой по всей России. Украшаем интерьеры с любовью к природе.
             </p>
           </div>
 
           {/* Product Links */}
           <div>
-            <h4 className="font-heading text-sm font-semibold text-zinc-100 mb-4">Продукт</h4>
+            <h4 className="font-heading text-sm font-semibold text-zinc-100 mb-4">Магазин</h4>
             <ul className="space-y-3">
               {footerLinks.product.map((link) => (
                 <li key={link.label}>
@@ -80,7 +80,7 @@ export function FooterSection() {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-zinc-900 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-zinc-600">© {new Date().getFullYear()} Velocite. Все права защищены.</p>
+          <p className="text-sm text-zinc-600">© {new Date().getFullYear()} ЗелёныйДом. Все права защищены.</p>
           <div className="flex items-center gap-4">
             <a href="#" className="text-zinc-500 hover:text-zinc-300 transition-colors" aria-label="GitHub">
               <Github className="w-5 h-5" />
