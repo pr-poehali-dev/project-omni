@@ -1,5 +1,5 @@
 const navLinks = [
-  { href: "#features", label: "Каталог" },
+  { href: "#catalog", label: "Каталог" },
   { href: "#testimonials", label: "Отзывы" },
   { href: "#pricing", label: "Доставка" },
 ]
